@@ -235,18 +235,6 @@ let madeMenu = `
 *||* *ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴄʀᴀᴢʏ ᴅᴇᴠ*
 *╚═══❖•ೋ° °ೋ•❖═══╝*
 `
-caption: formattedInfo,
-            contextInfo: { 
-                mentionedJid: [m.sender],
-                forwardingScore: 999,
-                isForwarded: true,
-                forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363411838274335@newsletter',
-                    newsletterName: '𝐂𝐑𝐀𝐙𝐘 𝐌𝐃',
-                    serverMessageId: 143
-                }
-            }
-        }, { quoted: mek });
    // send audio file with the menu    
         await conn.sendMessage(from, {
             audio: { url: 'https://files.catbox.moe/d8qqch.mp3' },
