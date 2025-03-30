@@ -27,19 +27,6 @@ reply('*Error !!*')
 l(e)
 }
 })
-           caption: formattedInfo,
-            contextInfo: { 
-                mentionedJid: [m.sender],
-                forwardingScore: 999,
-                isForwarded: true,
-                forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363411838274335@newsletter',
-                    newsletterName: '𝐂𝐑𝐀𝐙𝐘 𝐌𝐃',
-                    serverMessageId: 143
-                }
-            }
-        }, { quoted: mek });
-        
 cmd({
     pattern: "ping2",
     react: "♻️",
