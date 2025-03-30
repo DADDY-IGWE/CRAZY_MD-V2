@@ -235,16 +235,7 @@ let madeMenu = `
 *||* *ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴄʀᴀᴢʏ ᴅᴇᴠ*
 *╚═══❖•ೋ° °ೋ•❖═══╝*
 `
-   // send audio file with the menu    
-        await conn.sendMessage(from, {
-            audio: { url: 'https://files.catbox.moe/d8qqch.mp3' },
-            mimetype: 'audio/mp4',
-            ptt: true,
-            contextInfo: { 
-                mentionedJid: [m.sender],
-                forwardingScore: 999,
-                isForwarded: true,
-        
+ // send audio file with the menu    
 await conn.sendMessage(from,{image:{url:config.ALIVE_IMG},caption:madeMenu},{quoted:mek})
 
 }catch(e){
